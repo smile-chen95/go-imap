@@ -7,7 +7,7 @@ import (
 
 	"github.com/beiping96/go-imap"
 	"github.com/beiping96/go-imap/internal"
-	"github.com/beiping96/go-sasl"
+	"github.com/emersion/go-sasl"
 )
 
 func TestClient_StartTLS(t *testing.T) {

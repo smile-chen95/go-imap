@@ -160,7 +160,7 @@ to learn how to use them.
 * [go-message](https://github.com/beiping96/go-message) - parsing and formatting MIME and mail messages
 * [go-msgauth](https://github.com/beiping96/go-msgauth) - handle DKIM, DMARC and Authentication-Results
 * [go-pgpmail](https://github.com/beiping96/go-pgpmail) - decrypting and encrypting mails with OpenPGP
-* [go-sasl](https://github.com/beiping96/go-sasl) - sending and receiving SASL authentications
+* [go-sasl](https://github.com/emersion/go-sasl) - sending and receiving SASL authentications
 * [go-smtp](https://github.com/beiping96/go-smtp) - building SMTP clients and servers
 
 ## License

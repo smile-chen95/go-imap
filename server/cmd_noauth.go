@@ -7,7 +7,7 @@ import (
 
 	"github.com/beiping96/go-imap"
 	"github.com/beiping96/go-imap/commands"
-	"github.com/beiping96/go-sasl"
+	"github.com/emersion/go-sasl"
 )
 
 // IMAP errors in Not Authenticated state.
