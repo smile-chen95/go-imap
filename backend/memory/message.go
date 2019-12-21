@@ -6,10 +6,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/emersion/go-imap"
-	"github.com/emersion/go-imap/backend/backendutil"
-	"github.com/emersion/go-message"
-	"github.com/emersion/go-message/textproto"
+	"github.com/beiping96/go-imap"
+	"github.com/beiping96/go-imap/backend/backendutil"
+	"github.com/beiping96/go-message"
+	"github.com/beiping96/go-message/textproto"
 )
 
 type Message struct {

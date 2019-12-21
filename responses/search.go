@@ -1,7 +1,7 @@
 package responses
 
 import (
-	"github.com/emersion/go-imap"
+	"github.com/beiping96/go-imap"
 )
 
 const searchName = "SEARCH"

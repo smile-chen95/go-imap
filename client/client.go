@@ -16,9 +16,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/emersion/go-imap"
-	"github.com/emersion/go-imap/commands"
-	"github.com/emersion/go-imap/responses"
+	"github.com/beiping96/go-imap"
+	"github.com/beiping96/go-imap/commands"
+	"github.com/beiping96/go-imap/responses"
 )
 
 // errClosed is used when a connection is closed while waiting for a command
@@ -522,8 +522,12 @@ func (c *Client) handleGreetAndStartReading() error {
 	}
 
 	// We got the greeting, now start the reader goroutine.
-	go c.reader()
-
+	go func() {
+		if err = recover();err != nil {
+			fmt.Printf("IMAP-Client Has Panic %v",err)
+		}
+		c.reader()
+	}()
 	return nil
 }
 

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/emersion/go-imap"
+	"github.com/beiping96/go-imap"
 )
 
 func TestCommand_Command(t *testing.T) {

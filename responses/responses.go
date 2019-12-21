@@ -4,7 +4,7 @@ package responses
 import (
 	"errors"
 
-	"github.com/emersion/go-imap"
+	"github.com/beiping96/go-imap"
 )
 
 // ErrUnhandled is used when a response hasn't been handled.
