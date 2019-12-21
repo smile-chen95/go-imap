@@ -523,7 +523,7 @@ func (c *Client) handleGreetAndStartReading() error {
 
 	// We got the greeting, now start the reader goroutine.
 	go func() {
-		if err = recover();err != nil {
+		if err := recover();err != nil {
 			fmt.Printf("IMAP-Client Has Panic %v",err)
 		}
 		c.reader()
