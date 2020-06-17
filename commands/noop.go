@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/beiping96/go-imap"
+	"github.com/smile-chen95/go-imap"
 )
 
 // Noop is a NOOP command, as defined in RFC 3501 section 6.1.2.

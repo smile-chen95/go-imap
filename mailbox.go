@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/beiping96/go-imap/utf7"
+	"github.com/smile-chen95/go-imap/utf7"
 )
 
 // The primary mailbox, as defined in RFC 3501 section 5.1.

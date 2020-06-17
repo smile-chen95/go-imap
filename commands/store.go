@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/beiping96/go-imap"
+	"github.com/smile-chen95/go-imap"
 )
 
 // Store is a STORE command, as defined in RFC 3501 section 6.4.6.

@@ -1,19 +1,19 @@
 # go-imap
 
-[![GoDoc](https://godoc.org/github.com/beiping96/go-imap?status.svg)](https://godoc.org/github.com/beiping96/go-imap)
-[![builds.sr.ht status](https://builds.sr.ht/~beiping96/go-imap.svg)](https://builds.sr.ht/~beiping96/go-imap?)
-[![Codecov](https://codecov.io/gh/beiping96/go-imap/branch/master/graph/badge.svg)](https://codecov.io/gh/beiping96/go-imap)
+[![GoDoc](https://godoc.org/github.com/smile-chen95/go-imap?status.svg)](https://godoc.org/github.com/smile-chen95/go-imap)
+[![builds.sr.ht status](https://builds.sr.ht/~smile-chen95/go-imap.svg)](https://builds.sr.ht/~smile-chen95/go-imap?)
+[![Codecov](https://codecov.io/gh/smile-chen95/go-imap/branch/master/graph/badge.svg)](https://codecov.io/gh/smile-chen95/go-imap)
 
 An [IMAP4rev1](https://tools.ietf.org/html/rfc3501) library written in Go. It
 can be used to build a client and/or a server.
 
 ```shell
-go get github.com/beiping96/go-imap/...
+go get github.com/smile-chen95/go-imap/...
 ```
 
 ## Usage
 
-### Client [![GoDoc](https://godoc.org/github.com/beiping96/go-imap/client?status.svg)](https://godoc.org/github.com/beiping96/go-imap/client)
+### Client [![GoDoc](https://godoc.org/github.com/smile-chen95/go-imap/client?status.svg)](https://godoc.org/github.com/smile-chen95/go-imap/client)
 
 ```go
 package main
@@ -21,8 +21,8 @@ package main
 import (
 	"log"
 
-	"github.com/beiping96/go-imap/client"
-	"github.com/beiping96/go-imap"
+	"github.com/smile-chen95/go-imap/client"
+	"github.com/smile-chen95/go-imap"
 )
 
 func main() {
@@ -96,7 +96,7 @@ func main() {
 }
 ```
 
-### Server [![GoDoc](https://godoc.org/github.com/beiping96/go-imap/server?status.svg)](https://godoc.org/github.com/beiping96/go-imap/server)
+### Server [![GoDoc](https://godoc.org/github.com/smile-chen95/go-imap/server?status.svg)](https://godoc.org/github.com/smile-chen95/go-imap/server)
 
 ```go
 package main
@@ -104,8 +104,8 @@ package main
 import (
 	"log"
 
-	"github.com/beiping96/go-imap/server"
-	"github.com/beiping96/go-imap/backend/memory"
+	"github.com/smile-chen95/go-imap/server"
+	"github.com/smile-chen95/go-imap/backend/memory"
 )
 
 func main() {
@@ -133,35 +133,35 @@ You can now use `telnet localhost 1143` to manually connect to the server.
 ### Extensions
 
 Commands defined in IMAP extensions are available in other packages. See [the
-wiki](https://github.com/beiping96/go-imap/wiki/Using-extensions#using-client-extensions)
+wiki](https://github.com/smile-chen95/go-imap/wiki/Using-extensions#using-client-extensions)
 to learn how to use them.
 
-* [APPENDLIMIT](https://github.com/beiping96/go-imap-appendlimit)
-* [COMPRESS](https://github.com/beiping96/go-imap-compress)
-* [ENABLE](https://github.com/beiping96/go-imap-enable)
+* [APPENDLIMIT](https://github.com/smile-chen95/go-imap-appendlimit)
+* [COMPRESS](https://github.com/smile-chen95/go-imap-compress)
+* [ENABLE](https://github.com/smile-chen95/go-imap-enable)
 * [ID](https://github.com/ProtonMail/go-imap-id)
-* [IDLE](https://github.com/beiping96/go-imap-idle)
-* [MOVE](https://github.com/beiping96/go-imap-move)
-* [QUOTA](https://github.com/beiping96/go-imap-quota)
-* [SORT and THREAD](https://github.com/beiping96/go-imap-sortthread)
-* [SPECIAL-USE](https://github.com/beiping96/go-imap-specialuse)
-* [UNSELECT](https://github.com/beiping96/go-imap-unselect)
-* [UIDPLUS](https://github.com/beiping96/go-imap-uidplus)
+* [IDLE](https://github.com/smile-chen95/go-imap-idle)
+* [MOVE](https://github.com/smile-chen95/go-imap-move)
+* [QUOTA](https://github.com/smile-chen95/go-imap-quota)
+* [SORT and THREAD](https://github.com/smile-chen95/go-imap-sortthread)
+* [SPECIAL-USE](https://github.com/smile-chen95/go-imap-specialuse)
+* [UNSELECT](https://github.com/smile-chen95/go-imap-unselect)
+* [UIDPLUS](https://github.com/smile-chen95/go-imap-uidplus)
 
 ### Server backends
 
-* [Memory](https://github.com/beiping96/go-imap/tree/master/backend/memory) (for testing)
-* [Multi](https://github.com/beiping96/go-imap-multi)
-* [PGP](https://github.com/beiping96/go-imap-pgp)
-* [Proxy](https://github.com/beiping96/go-imap-proxy)
+* [Memory](https://github.com/smile-chen95/go-imap/tree/master/backend/memory) (for testing)
+* [Multi](https://github.com/smile-chen95/go-imap-multi)
+* [PGP](https://github.com/smile-chen95/go-imap-pgp)
+* [Proxy](https://github.com/smile-chen95/go-imap-proxy)
 
 ### Related projects
 
-* [go-message](https://github.com/beiping96/go-message) - parsing and formatting MIME and mail messages
-* [go-msgauth](https://github.com/beiping96/go-msgauth) - handle DKIM, DMARC and Authentication-Results
-* [go-pgpmail](https://github.com/beiping96/go-pgpmail) - decrypting and encrypting mails with OpenPGP
+* [go-message](https://github.com/smile-chen95/go-message) - parsing and formatting MIME and mail messages
+* [go-msgauth](https://github.com/smile-chen95/go-msgauth) - handle DKIM, DMARC and Authentication-Results
+* [go-pgpmail](https://github.com/smile-chen95/go-pgpmail) - decrypting and encrypting mails with OpenPGP
 * [go-sasl](https://github.com/emersion/go-sasl) - sending and receiving SASL authentications
-* [go-smtp](https://github.com/beiping96/go-smtp) - building SMTP clients and servers
+* [go-smtp](https://github.com/smile-chen95/go-smtp) - building SMTP clients and servers
 
 ## License
 

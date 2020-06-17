@@ -3,7 +3,7 @@ package memory
 import (
 	"errors"
 
-	"github.com/beiping96/go-imap/backend"
+	"github.com/smile-chen95/go-imap/backend"
 )
 
 type User struct {

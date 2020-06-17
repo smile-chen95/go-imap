@@ -3,8 +3,8 @@ package commands
 import (
 	"errors"
 
-	"github.com/beiping96/go-imap"
-	"github.com/beiping96/go-imap/utf7"
+	"github.com/smile-chen95/go-imap"
+	"github.com/smile-chen95/go-imap/utf7"
 )
 
 // Subscribe is a SUBSCRIBE command, as defined in RFC 3501 section 6.3.6.

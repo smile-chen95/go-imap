@@ -4,9 +4,9 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/beiping96/go-imap"
-	"github.com/beiping96/go-imap/backend"
-	"github.com/beiping96/go-imap/backend/backendutil"
+	"github.com/smile-chen95/go-imap"
+	"github.com/smile-chen95/go-imap/backend"
+	"github.com/smile-chen95/go-imap/backend/backendutil"
 )
 
 var Delimiter = "/"

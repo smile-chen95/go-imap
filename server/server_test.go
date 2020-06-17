@@ -5,8 +5,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/beiping96/go-imap/backend/memory"
-	"github.com/beiping96/go-imap/server"
+	"github.com/smile-chen95/go-imap/backend/memory"
+	"github.com/smile-chen95/go-imap/server"
 )
 
 func testServer(t *testing.T) (s *server.Server, conn net.Conn) {
