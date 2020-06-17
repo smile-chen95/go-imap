@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/beiping96/go-imap"
+	"github.com/smile-chen95/go-imap"
 )
 
 // StartTLS is a STARTTLS command, as defined in RFC 3501 section 6.2.1.

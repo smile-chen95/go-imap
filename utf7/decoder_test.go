@@ -3,7 +3,7 @@ package utf7_test
 import (
 	"testing"
 
-	"github.com/beiping96/go-imap/utf7"
+	"github.com/smile-chen95/go-imap/utf7"
 )
 
 var decode = []struct {

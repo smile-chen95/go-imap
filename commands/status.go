@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/beiping96/go-imap"
-	"github.com/beiping96/go-imap/utf7"
+	"github.com/smile-chen95/go-imap"
+	"github.com/smile-chen95/go-imap/utf7"
 )
 
 // Status is a STATUS command, as defined in RFC 3501 section 6.3.10.
